@@ -14,6 +14,7 @@ githubLink.innerText = 'Designed by Mark Elliott';
 githubLink.href = 'https://github.com/Mark-Elliott5';
 const githubIcon = new Image();
 githubIcon.src = Icon;
+githubIcon.classList.add('github-link');
 githubLink.appendChild(githubIcon);
 footer.appendChild(githubLink);
 
