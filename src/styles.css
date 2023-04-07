@@ -29,3 +29,8 @@ footer > a {
     width: 16px; 
     margin-left: 5px; 
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
