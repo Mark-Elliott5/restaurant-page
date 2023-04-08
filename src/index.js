@@ -1,10 +1,9 @@
 "use strict"
 
-import './home.js';
-import './menu.js';
-import './contact.js';
+import constructHome from  './home.js';
+import constructMenu from './menu.js';
+import constructContact from './contact.js';
 import Icon from './images/github-mark-white.png';
-import exterior from './images/raising-canes-exterior.png';
 import './styles.css';
 
 // header
@@ -25,9 +24,7 @@ contact.innerText = 'Contact';
 // main
 
 const main = document.createElement('main');
-const restaurantImage = new Image();
-restaurantImage.src = exterior;
-main.appendChild(restaurantImage);
+main.id = 'main';
 
 // footer
 
@@ -47,3 +44,4 @@ const div = document.getElementById('content');
 div.appendChild(header);
 div.appendChild(main);
 div.appendChild(footer);
+constructHome();
