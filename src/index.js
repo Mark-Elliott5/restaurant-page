@@ -20,7 +20,11 @@ const contact = document.createElement('div');
 home.innerText = 'Home';
 menu.innerText = 'Menu';
 contact.innerText = 'Contact';
-
+home.addEventListener('click', constructHome);
+menu.addEventListener('click', constructMenu);
+contact.addEventListener('click', constructContact);
+nav.append(home, menu, contact);
+header.appendChild(nav);
 // main
 
 const main = document.createElement('main');
@@ -41,7 +45,5 @@ footer.appendChild(githubLink);
 // page generation
 
 const div = document.getElementById('content');
-div.appendChild(header);
-div.appendChild(main);
-div.appendChild(footer);
+div.append(header, main, footer);
 constructHome();

@@ -9,6 +9,5 @@ export default function generateHome() {
     text.innerText = `Here at Raising Cane's, we fry the best chicken!`;
     const restaurantImage = new Image();
     restaurantImage.src = exterior;
-    main.appendChild(text);
-    main.appendChild(restaurantImage);
+    main.append(text, restaurantImage);
 }

@@ -33,4 +33,11 @@ footer > a {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 44px;
+}
+
+nav > div {
+    border: 1px solid white;
+    padding: 10px 30px;
 }
