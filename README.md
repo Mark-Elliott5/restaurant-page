@@ -1,2 +1,2 @@
-Site is currently deployed [here](https://mark-elliott5.github.io/restaurant-page/).
+Site is currently deployed [here](https://mark-elliott5.github.io/restaurant-page/). It is a dynamically generated webpage, as opposed to static, and bundled with webpack.
 ![Restaurant Page](images/restaurant-page.png)
