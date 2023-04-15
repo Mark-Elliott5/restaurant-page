@@ -1,5 +1,3 @@
-"use strict"
-
 import exterior from './images/raising-canes-exterior.png';
 
 export default function generateHome() {

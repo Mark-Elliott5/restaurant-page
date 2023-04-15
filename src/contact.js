@@ -1,5 +1,3 @@
-"use strict"
-
 export default function generateContact() {
     const main = document.getElementById('main');
     main.replaceChildren();

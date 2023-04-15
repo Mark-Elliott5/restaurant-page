@@ -1,5 +1,3 @@
-"use strict"
-
 import constructHome from  './home.js';
 import constructMenu from './menu.js';
 import constructContact from './contact.js';
